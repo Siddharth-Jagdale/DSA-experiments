@@ -92,3 +92,42 @@ int main() {
     }
     return 0;
 }
+
+Output:
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter value to push: 21
+21 pushed to stack
+
+--- Stack Menu ---
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 1
+Enter value to push: 42
+42 pushed to stack
+
+--- Stack Menu ---
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 4
+Stack elements: 42 21 
+
+--- Stack Menu ---
+1. Push
+2. Pop
+3. Peek
+4. Display
+5. Exit
+Enter your choice: 5
+Exiting...
+
