@@ -140,3 +140,32 @@ int main() {
     }
     return 0;
 }
+
+Output:
+--- Circular Singly Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete a Node
+4. Display
+5. Exit
+Enter choice: 1
+Enter value: 21
+
+--- Circular Singly Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete a Node
+4. Display
+5. Exit
+Enter choice: 2
+Enter value: 42
+
+--- Circular Singly Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete a Node
+4. Display
+5. Exit
+Enter choice: 4
+Circular Linked List: 21 -> 42 -> (back to head)
+
