@@ -96,3 +96,34 @@ int main() {
     }
     return 0;
 }
+
+Output:
+--- Music Player Menu ---
+1. Play New Song (Push)
+2. Go Back to Previous Song (Pop)
+3. Show Current Song (Peek)
+4. Show Playlist History (Display)
+5. Exit
+Enter choice: 1
+Enter song name: abcd
+Now playing: abcd
+
+--- Music Player Menu ---
+1. Play New Song (Push)
+2. Go Back to Previous Song (Pop)
+3. Show Current Song (Peek)
+4. Show Playlist History (Display)
+5. Exit
+Enter choice: 1
+Enter song name: efgh
+Now playing: efgh
+
+--- Music Player Menu ---
+1. Play New Song (Push)
+2. Go Back to Previous Song (Pop)
+3. Show Current Song (Peek)
+4. Show Playlist History (Display)
+5. Exit
+Enter choice: 2
+Stopping: efgh
+Now playing: abcd
