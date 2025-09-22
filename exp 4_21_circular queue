@@ -87,3 +87,38 @@
             }
         }
     }
+
+Output:
+--- Circular Queue Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 1
+Enter value to enqueue: 21
+21 inserted into the queue.
+
+--- Circular Queue Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 1
+Enter value to enqueue: 42
+42 inserted into the queue.
+
+--- Circular Queue Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 2
+21 removed from the queue.
+
+--- Circular Queue Menu ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Enter your choice: 3
+Queue elements: 42 
