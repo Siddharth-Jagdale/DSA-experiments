@@ -116,3 +116,34 @@ int main() {
     }
     return 0;
 }
+
+Output:
+--- Singly Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete from Beginning
+4. Delete from End
+5. Display
+6. Exit
+Enter choice: 1
+Enter value: 21
+
+--- Singly Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete from Beginning
+4. Delete from End
+5. Display
+6. Exit
+Enter choice: 2
+Enter value: 42 
+
+--- Singly Linked List Menu ---
+1. Insert at Beginning
+2. Insert at End
+3. Delete from Beginning
+4. Delete from End
+5. Display
+6. Exit
+Enter choice: 5
+Linked List: 21 -> 42 -> NULL
