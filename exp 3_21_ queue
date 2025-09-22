@@ -75,3 +75,32 @@ int main() {
         }
     }
 }
+
+Output:
+--- Queue Menu ---
+1. Enqueue (Insert)
+2. Dequeue (Delete)
+3. Display Queue
+4. Exit
+Enter your choice: 1
+Enter value to insert: 21
+21 inserted into the queue.
+
+--- Queue Menu ---
+1. Enqueue (Insert)
+2. Dequeue (Delete)
+3. Display Queue
+4. Exit
+Enter your choice: 1
+Enter value to insert: 42
+42 inserted into the queue.
+
+--- Queue Menu ---
+1. Enqueue (Insert)
+2. Dequeue (Delete)
+3. Display Queue
+4. Exit
+Enter your choice: 3
+Queue elements: 21 42 
+
+
