@@ -45,3 +45,14 @@ int main() {
 
     return 0;
 }
+
+Output:
+Enter number of songs: 5
+Enter songs in alphabetical order:
+dhun
+golden
+trolly
+saphire
+kpop
+Enter song to search: believer
+Song 'believer' not found in playlist.
