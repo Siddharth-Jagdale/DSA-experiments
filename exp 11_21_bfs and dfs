@@ -89,3 +89,18 @@ int main() {
 
     return 0;
 }
+
+Output:
+Enter number of vertices: 5
+Enter number of edges: 6
+Enter edges (u v):
+0 3
+1 5
+7 6
+8 9
+2 3
+7 6
+Enter starting vertex: 0
+BFS Traversal: 0 3 
+DFS Traversal: 0 3 
+
