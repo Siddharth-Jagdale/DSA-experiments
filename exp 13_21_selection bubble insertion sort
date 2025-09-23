@@ -99,3 +99,27 @@ int main() {
 
     return 0;
 }
+
+Output:
+Enter number of elements: 5
+Enter elements: 42
+63
+84
+21
+105
+
+--- Menu ---
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Exit
+Enter your choice: 1
+Sorted Array (Selection Sort): 21 42 63 84 105 
+
+--- Menu ---
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Exit
+Enter your choice: 2
+Sorted Array (Bubble Sort): 21 42 63 84 105
