@@ -102,3 +102,27 @@ int main() {
 
     return 0;
 }
+
+Output:
+Enter number of elements: 6
+Enter elements: 89
+54
+62
+78
+32
+25
+
+--- Menu ---
+1. Merge Sort
+2. Quick Sort
+3. Exit
+Enter your choice: 1
+Sorted Array (Merge Sort): 25 32 54 62 78 89 
+
+--- Menu ---
+1. Merge Sort
+2. Quick Sort
+3. Exit
+Enter your choice: 2 
+Sorted Array (Quick Sort): 25 32 54 62 78 89 
+
