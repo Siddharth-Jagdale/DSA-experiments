@@ -1,57 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Node structure
-struct Node {
-    int data;
-    struct Node* next;
-};
+#define MAX 10   // maximum size of stack
 
-struct Node* top = NULL;  // top of stack
+int stack[MAX];  // array to hold stack elements
+int top = -1;    // -1 means stack is empty
 
 // Function to push element into stack
 void push(int value) {
-    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
-    newNode->data = value;
-    newNode->next = top;
-    top = newNode;
-    printf("%d pushed to stack\n", value);
+    if (top == MAX - 1) {
+        printf("Stack Overflow! (Stack is full)\n");
+    } else {
+        top++;
+        stack[top] = value;
+        printf("%d pushed to stack\n", value);
+    }
 }
 
 // Function to pop element from stack
 void pop() {
-    if (top == NULL) {
+    if (top == -1) {
         printf("Stack Underflow! (Empty Stack)\n");
-        return;
+    } else {
+        printf("%d popped from stack\n", stack[top]);
+        top--;
     }
-    struct Node* temp = top;
-    printf("%d popped from stack\n", temp->data);
-    top = top->next;
-    free(temp);
 }
 
 // Function to peek top element
 void peek() {
-    if (top == NULL) {
+    if (top == -1) {
         printf("Stack is empty\n");
     } else {
-        printf("Top element is %d\n", top->data);
+        printf("Top element is %d\n", stack[top]);
     }
 }
 
 // Function to display stack
 void display() {
-    if (top == NULL) {
+    if (top == -1) {
         printf("Stack is empty\n");
-        return;
+    } else {
+        printf("Stack elements: ");
+        for (int i = top; i >= 0; i--) {
+            printf("%d ", stack[i]);  // print from top to bottom
+        }
+        printf("\n");
     }
-    struct Node* temp = top;
-    printf("Stack elements: ");
-    while (temp != NULL) {
-        printf("%d ", temp->data);
-        temp = temp->next;
-    }
-    printf("\n");
 }
 
 // Main function (menu-driven)
